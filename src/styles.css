@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-dark: #16171d;
+  --color-bright: #f8f9ff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  background-color: #e1dff1;
+  color: var(--color-dark);
+}
+
+h2 {
+  margin: 0;
+}

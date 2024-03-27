@@ -1,0 +1,15 @@
+.movie-card {
+  background: var(--color-bright);
+  padding: 2rem;
+  border-radius: 8px;
+  display: grid;
+  justify-items: start;
+  gap: 1rem;
+}
+
+.movie-card__genres {
+  padding: 0.25rem 1rem;
+  background-color: #0009;
+  color: white;
+  border-radius: 999px;
+}
